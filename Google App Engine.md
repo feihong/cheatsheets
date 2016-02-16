@@ -15,8 +15,7 @@ helloworld
 |_ helloworld.py
 ```
 
-app.yaml
-
+app.yaml:
 ```yaml
 version: 1
 runtime: python27
@@ -28,8 +27,7 @@ handlers:
   script: helloworld.app
 ```
 
-helloworld.py
-
+helloworld.py:
 ```python
 import webapp2
 
