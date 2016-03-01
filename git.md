@@ -10,6 +10,12 @@ Download just the source code of a project:
 curl -sL https://github.com/feihong/tutorial-boilerplate/archive/master.tar.gz | tar xz
 ```
 
+Set email:
+
+```
+git config --global user.email "your_email@example.com"
+```
+
 Create new, empty repo, sync it to GitHub, and create the gh-pages branch:
 
 ```bash
