@@ -1,4 +1,4 @@
-.. This is a comment! It will show up in the rendered markup.
+.. This is a comment! It will not show up in the rendered markup.
 
 Basics
 ------
