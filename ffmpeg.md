@@ -15,3 +15,9 @@ Extract image from the first frame of 00:19 of MP4 video
 ```
 ffmpeg -i movie.mp4 -ss 19 -frames:v 1 image.jpg
 ```
+
+Add metadata to an M4A audio file
+
+```
+ffmpeg -i audio.m4a -metadata title="Bang Bang" -metadata artist="程思佳" -c copy audio2.m4a
+```
