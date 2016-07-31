@@ -7,5 +7,5 @@ ffmpeg -i movie.mp4 -ss 00:14:43 -to 16:55 -acodec copy -vcodec copy -async 1 cu
 Extract audio from MP4 video into an M4A audio file
 
 ```
-ffmpeg -i movie.mp4 -acodec copy audio.m4a
+ffmpeg -i movie.mp4 -vn -acodec copy audio.m4a
 ```
