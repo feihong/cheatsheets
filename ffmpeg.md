@@ -33,3 +33,9 @@ Add cover artwork to an m4a file (cannot do this with ffmpeg)
 ```
 AtomicParsley audio2.m4a --artwork image.jpg --overWrite
 ```
+
+Extract cover artwork from m4a file
+
+```
+ffmpeg -i audio2.m4a cover.jpg
+```
