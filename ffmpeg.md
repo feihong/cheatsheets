@@ -22,6 +22,12 @@ Add metadata to an m4a file
 ffmpeg -i audio.m4a -metadata title="Bang Bang" -metadata artist="程思佳" -c copy audio2.m4a
 ```
 
+Trim the given m4a file from 0:10 to 3:40 (will not preserve artwork, using -c copy will not work here)
+
+```
+ffmpeg -i audio2.m4a -ss 10 -to 3:40 -acodec copy cut.m4a
+```
+
 Add cover artwork to an m4a file (cannot do this with ffmpeg)
 
 ```
