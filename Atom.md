@@ -10,6 +10,13 @@ From the menu, select Atom > Open your snippets.
 
 From the menu, select Edit > Snippets...
 
+## Show ignored files
+
+1. Go to preferences and select packages.
+1. Search for treeview.
+1. Select settings for treeview.
+1. Unselect `Hide VCS ignored files`.
+
 ## Snippets
 
 ```cson
