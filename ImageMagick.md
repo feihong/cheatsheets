@@ -6,9 +6,7 @@
 
 ## Resize selfie.jpg so that its width becomes 800px (ratio preserved)
 
-```
-convert selfie.jpg -resize 800 resized_selfie.jpg
-```
+`convert selfie.jpg -resize 800 resized_selfie.jpg`
 
 ## Resize logo.gif, ignoring its original aspect ratio
 
@@ -16,6 +14,8 @@ convert selfie.jpg -resize 800 resized_selfie.jpg
 
 ## Convert an SVG file to PNG
 
-```
-convert -density 1200 -resize 320x240 test.svg test.png
-```
+`convert -density 1200 -resize 320x240 test.svg test.png`
+
+## Sources
+
+- [Resizing or Scaling](http://www.imagemagick.org/Usage/resize/)
