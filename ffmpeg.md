@@ -1,5 +1,16 @@
 # FFmpeg Cheatsheet
 
+## Concatenate two videos together
+
+```
+# Generate text file containing .mp4 files to concatenate:
+for f in ./*.mp4; do echo "file '$f'" >> mp4list.txt; done
+# Concatenate the files to produce output.mp4
+ffmpeg -f concat -safe 0 -i mp4list.txt -c copy output.mp4
+```
+
+Source: [Concatenation of files with same codecs](https://trac.ffmpeg.org/wiki/Concatenate#samecodec)
+
 ## Copy the input video from 14:43 to 16:55 and output it to a file called cut.mp4
 
 `ffmpeg -i movie.mp4 -ss 00:14:43 -to 16:55 -acodec copy -vcodec copy -async 1 cut.mp4`
@@ -18,7 +29,7 @@
 
 Note that AtomicParsley is still better for this kind of thing.
 
-# Trim the given m4a file from 0:10 to 3:40
+## Trim the given m4a file from 0:10 to 3:40
 
 `ffmpeg -i audio2.m4a -ss 10 -to 3:40 -acodec copy cut.m4a`
 
