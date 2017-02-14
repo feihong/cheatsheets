@@ -9,8 +9,6 @@ for f in ./*.mp4; do echo "file '$f'" >> mp4list.txt; done
 ffmpeg -f concat -safe 0 -i mp4list.txt -c copy output.mp4
 ```
 
-Source: [Concatenation of files with same codecs](https://trac.ffmpeg.org/wiki/Concatenate#samecodec)
-
 ## Copy the input video from 14:43 to 16:55 and output it to a file called cut.mp4
 
 `ffmpeg -i movie.mp4 -ss 00:14:43 -to 16:55 -acodec copy -vcodec copy -async 1 cut.mp4`
@@ -44,3 +42,7 @@ Note that there is no way to do this with ffmpeg.
 ## Extract cover artwork from m4a file
 
 `ffmpeg -i audio2.m4a cover.jpg`
+
+## Sources
+
+- [Concatenation of files with same codecs](https://trac.ffmpeg.org/wiki/Concatenate#samecodec)
