@@ -1,22 +1,21 @@
-Undo last commit:
+## Undo last commit
 
-```
-git reset --soft HEAD~1 
-```
+`git reset --soft HEAD~1`
 
-Download just the source code of a project:
+## Download just the source code of a project
 
-```
-curl -sL https://github.com/feihong/tutorial-boilerplate/archive/master.tar.gz | tar xz
-```
+`curl -sL https://github.com/feihong/tutorial-boilerplate/archive/master.tar.gz | tar xz`
 
-Set email:
+## Set email
 
-```
-git config --global user.email "your_email@example.com"
-```
+`git config --global user.email "your_email@example.com"`
 
-Create new, empty repo, sync it to GitHub, and create the gh-pages branch:
+## Change remote repository URL
+
+`git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY`
+
+
+## Create new, empty repo, sync it to GitHub, and create the gh-pages branch:
 
 ```bash
 USERNAME=feihong
@@ -44,7 +43,7 @@ git commit -a -m "Initial pages commit"
 git push origin gh-pages
 ```
 
-Sources:
+## Sources
 
 - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 - https://help.github.com/articles/creating-project-pages-manually/
