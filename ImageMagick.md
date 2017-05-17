@@ -16,6 +16,10 @@
 
 `convert -density 1200 -resize 320x240 test.svg test.png`
 
+## Combine PDF files together, vertically
+
+`convert prefix-1.png prefix-2.png prefix-3.png -append result.png`
+
 ## Sources
 
 - [Resizing or Scaling](http://www.imagemagick.org/Usage/resize/)
