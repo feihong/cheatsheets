@@ -1,9 +1,11 @@
 ## Commands
 
+Prefix, by default, is ^b.
+
 | **Command** | **Description** |
 |----------|----------|
 | `tmux a` | Reattach |
-| `tmux d` | Detach |
+| `prefix d` | Detach |
 | `prefix kill-session` | Kill session |
 | `prefix c` | Create window |
 | `prefix ,` | Rename window |
