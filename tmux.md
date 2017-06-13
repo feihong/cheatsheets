@@ -3,6 +3,7 @@
 | **Command** | **Description** |
 |----------|----------|
 | `tmux a` | Reattach |
+| `tmux d` | Detach |
 | `prefix kill-session` | Kill session |
 | `prefix c` | Create window |
 | `prefix ,` | Rename window |
