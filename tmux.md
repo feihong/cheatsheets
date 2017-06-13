@@ -36,3 +36,7 @@ windows:
     - workon tasks
     - celery -A tasks worker --loglevel=info
 ```
+
+## Sources
+
+- http://www.dayid.org/comp/tm.html
