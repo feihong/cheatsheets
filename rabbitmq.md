@@ -24,6 +24,14 @@
 
 `brew services stop rabbitmq`
 
+## Web UI
+
+http://localhost:15672/
+
+## HTTP API
+
+`curl -i -u guest:guest http://localhost:15672/api/vhosts`
+
 ## Config file location
 
 Debian: `/etc/rabbitmq/rabbitmq.config`
