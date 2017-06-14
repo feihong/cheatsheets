@@ -7,6 +7,7 @@
 ## Start and stop
  
  `invoke-rc.d rabbitmq-server start`
+ 
  `invoke-rc.d rabbitmq-server stop`
  
  ## Connecting to RabbitMQ using Python
