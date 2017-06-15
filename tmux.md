@@ -4,6 +4,8 @@
 |----------|----------|
 | `tmux ls` | list sessions |
 | `tmux a` | Reattach to last session |
+| `tmux new -s foo` | Create new session named foo |
+| `tmux a -t foo` | Attach to session named foo |
 
 Prefix, by default, is ^b.
 
@@ -13,6 +15,7 @@ Prefix, by default, is ^b.
 | `prefix kill-session` | Kill session |
 | `prefix c` | Create window |
 | `prefix ,` | Rename window |
+| `prefix [` | Enter scroll mode. You can use arrow and page keys to scroll. Press q to quit. |
 
 ## Sample tmuxinator file
 
