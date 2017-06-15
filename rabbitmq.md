@@ -41,6 +41,11 @@ Mac: `/usr/local/etc/rabbitmq/rabbitmq.config` (if installed via brew)
  ## Connecting to RabbitMQ using Python
  
  ```python
+ import pika
+ conn = pika.BlockingConnection()
+ ```
+ 
+ ```python
  from librabbitmq import Connection
  conn = Connection()
  ```
