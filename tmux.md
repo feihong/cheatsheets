@@ -1,10 +1,14 @@
 ## Commands
 
+| **Command line** | **Description** |
+|----------|----------|
+| `tmux ls` | list sessions |
+| `tmux a` | Reattach to last session |
+
 Prefix, by default, is ^b.
 
-| **Command** | **Description** |
+| **Key bindings** | **Description** |
 |----------|----------|
-| `tmux a` | Reattach |
 | `prefix d` | Detach |
 | `prefix kill-session` | Kill session |
 | `prefix c` | Create window |
@@ -42,3 +46,4 @@ windows:
 ## Sources
 
 - http://www.dayid.org/comp/tm.html
+- http://hyperpolyglot.org/multiplexers
