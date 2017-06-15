@@ -1,4 +1,4 @@
-## Commands
+# Tmux
 
 | **Command line** | **Description** |
 |----------|----------|
@@ -18,6 +18,8 @@ Prefix, by default, is ^b.
 | `prefix [` | Enter scroll mode. You can use arrow and page keys to scroll. Press q to quit. |
 
 ## Sample tmuxinator file
+
+Maybe it makes more sense to use an AppleScript instead of this.
 
 ```yaml
 # ~/.tmuxinator/project.yml
