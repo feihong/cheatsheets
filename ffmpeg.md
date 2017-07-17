@@ -29,7 +29,13 @@ Note that AtomicParsley is still better for this kind of thing.
 
 ## Trim the given m4a file from 0:10 to 3:40
 
-`ffmpeg -i audio2.m4a -ss 10 -to 3:40 -acodec copy cut.m4a`
+`ffmpeg -ss 10 -to 3:40 -i audio2.m4a  -acodec copy cut.m4a`
+
+Note that this will not preserve artwork; even using -c copy will not copy it over.
+
+## Trim the given m4a file from 0:10 with a duration of 1:23
+
+`ffmpeg -ss 10 -t 1:23 -i audio2.m4a  -acodec copy cut.m4a`
 
 Note that this will not preserve artwork; even using -c copy will not copy it over.
 
