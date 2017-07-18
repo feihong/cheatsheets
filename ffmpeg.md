@@ -17,6 +17,10 @@ ffmpeg -f concat -safe 0 -i mp4list.txt -c copy output.mp4
 
 `ffmpeg -i movie.mp4 -vn -acodec copy audio.m4a`
 
+## Extract a portion of the audio from MP4 video into an M4A audio file
+
+`ffmpeg -ss 5:21 -t 6:30 -i movie.mp4 -vn -acodec copy audio-snippet.m4a`
+
 ## Extract image from the first frame of 00:19 of mp4 file
 
 `ffmpeg -i movie.mp4 -ss 19 -frames:v 1 image.jpg`
