@@ -1,3 +1,9 @@
+# Git Cheatsheet
+
+## Switch to another branch
+
+`git checkout <name of branch>`
+
 ## Undo last commit
 
 `git reset --soft HEAD~1`
@@ -13,7 +19,6 @@
 ## Change remote repository URL
 
 `git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY`
-
 
 ## Create new, empty repo, sync it to GitHub, and create the gh-pages branch:
 
