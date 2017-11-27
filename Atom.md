@@ -1,5 +1,9 @@
 # Atom
 
+## Turn off Welcome tabs
+
+Uncheck "Show Welcome Guide when opening Atom"
+
 ## Opening `~/.atom/snippets.cson`:
 
 ### Mac
