@@ -15,6 +15,8 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
 1. Open .spacemacs file (SPC f e d)
 1. Make sure these lines are present/uncommented under dotspacemacs-configuration-layers:
    
+       clojure
+       parinfer
        helm
        auto-completion
        better-defaults
