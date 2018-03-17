@@ -12,6 +12,24 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
 1. Choose standard distribution
 1. Choose full-featured completion framework (helm)
 1. Emacs will automatically download and install packages
+1. Open .spacemacs file (SPC f e d)
+1. Make sure these lines are present/uncommented under dotspacemacs-configuration-layers:
+   
+       helm
+       auto-completion
+       better-defaults
+       emacs-lisp
+       git
+       html
+       javascript
+       markdown
+       org
+       (shell :variables
+              shell-default-height 30
+              shell-default-position 'bottom)
+       syntax-checking
+       version-control
+
 
 Sources:
 
