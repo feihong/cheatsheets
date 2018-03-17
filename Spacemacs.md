@@ -16,7 +16,6 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
 1. Make sure these lines are present/uncommented under dotspacemacs-configuration-layers:
    
        clojure
-       parinfer
        helm
        auto-completion
        better-defaults
@@ -31,6 +30,7 @@ brew tap caskroom/fonts && brew cask install font-source-code-pro
               shell-default-position 'bottom)
        syntax-checking
        version-control
+1. The javascript layer expects tern.js to be installed, so to avoid seeing errors on startup you should run `npm install -g tern`.
 
 
 Sources:
