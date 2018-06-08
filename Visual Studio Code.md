@@ -2,5 +2,4 @@
 
 ## Extensions to install
 
-- Parinfer
-- Clojure
+- vscode-reasonml
