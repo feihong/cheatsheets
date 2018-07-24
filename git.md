@@ -1,5 +1,13 @@
 # Git Cheatsheet
 
+## Create new lightweight tag
+
+`git tag v1.0`
+
+## Push tags to remote servers
+
+`git push --tags`
+
 ## Switch to another branch
 
 `git checkout <name of branch>`
