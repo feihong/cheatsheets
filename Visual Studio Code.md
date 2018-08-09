@@ -24,4 +24,5 @@
 
 ## Extensions to install
 
-- vscode-reasonml
+- reasonml
+- language-purescript
