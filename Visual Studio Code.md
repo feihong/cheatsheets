@@ -2,7 +2,9 @@
 
 ## Shortcuts
 
-Edit settings - Cmd+,
+| **Command** | **Shortcut** |
+|----------|----------|
+| Edit settings | `Cmd + ,` |
 
 ## Settings
 
