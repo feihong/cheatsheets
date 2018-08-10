@@ -8,6 +8,17 @@
 
 `git push --tags`
 
+## Squash commits in your branch for pull request
+
+```
+$ git rebase -i upstream/master
+< choose squash/s for all of your commits, except the first one >
+< Edit the commit message to make sense, make sure first line is not too long >
+$ git push -f
+```
+
+[Detailed guide](https://github.com/servo/servo/wiki/Beginner%27s-guide-to-rebasing-and-squashing)
+
 ## Switch to another branch
 
 `git checkout <name of branch>`
