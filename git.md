@@ -8,6 +8,10 @@
 
 `git push --tags`
 
+## Rebase your branch
+
+[Detailed guide](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
+
 ## Squash commits in your branch for pull request
 
 ```
