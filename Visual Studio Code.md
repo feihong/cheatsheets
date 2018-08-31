@@ -10,7 +10,10 @@
 
 ```json
 {
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -18,7 +21,12 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
     "explorer.confirmDragAndDrop": false,
-    "git.ignoreMissingGitWarning": true
+    "git.ignoreMissingGitWarning": true,
+    "editor.formatOnSave": true,
+    "reason.diagnostics.tools": [
+        "merlin"
+    ],
+    "javascript.format.enable": false
 }
 ```
 
