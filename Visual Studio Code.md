@@ -15,23 +15,30 @@
         120
     ],
     "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.minimap.enabled": false,
     "explorer.confirmDragAndDrop": false,
     "git.ignoreMissingGitWarning": true,
-    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
     "reason.diagnostics.tools": [
-        "merlin"
+        "merlin",
+        "bsb"
     ],
-    "javascript.format.enable": false
+    "reason.path.bsb": "/usr/local/bin/bsb",
+    "reason.codelens.enabled": true,
+    "files.associations": {
+        "*.atd": "ocaml"
+    }
 }
 ```
 
 ## Extensions to install
 
-- reason-vscode (config prefix: reason_language_server)
+- reason-vscode (config prefix: reason)
 - ~reasonml~
 
