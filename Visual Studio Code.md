@@ -32,5 +32,6 @@
 
 ## Extensions to install
 
-- reasonml
-- language-purescript
+- reason-vscode (config prefix: reason_language_server)
+- ~reasonml~
+
