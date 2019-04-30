@@ -24,7 +24,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDragAndDrop": false,
     "git.ignoreMissingGitWarning": true,
-    "javascript.format.enable": false,
+    "javascript.format.enable": true,
     "reason.diagnostics.tools": [
         "merlin",
         "bsb"
@@ -33,7 +33,10 @@
     "reason.codelens.enabled": true,
     "files.associations": {
         "*.atd": "ocaml"
-    }
+    },
+    "diffEditor.renderSideBySide": false,
+    "reason_language_server.autoRebuild": false,
+    "workbench.colorTheme": "Default Light+"
 }
 ```
 
