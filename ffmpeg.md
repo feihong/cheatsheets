@@ -53,6 +53,11 @@ Note that there is no way to do this with ffmpeg.
 
 `ffmpeg -i audio2.m4a cover.jpg`
 
+## Extract metadata into json file
+
+`ffprobe track.m4a -print_format json -show_format > track.json`
+
+
 ## Sources
 
 - [Concatenation of files with same codecs](https://trac.ffmpeg.org/wiki/Concatenate#samecodec)
