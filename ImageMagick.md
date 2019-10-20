@@ -8,6 +8,10 @@
 
 `convert selfie.jpg -resize 800 resized_selfie.jpg`
 
+## Resize input.jpg so that its height becomes 600px (ratio preserved)
+
+`convert input.png -geometry x600 output.png`
+
 ## Resize logo.gif, ignoring its original aspect ratio
 
 `convert logo.gif -resize 644x644\! resize_logo.gif`
