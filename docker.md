@@ -3,6 +3,10 @@
 List images
 
     docker images
+    
+Remove image centos, including the containers that use it
+
+    docker rmi -f centos
 
 List running containers
 
