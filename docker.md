@@ -15,3 +15,7 @@ List running containers
 List all containers, including paused ones
 
     docker ps -a
+
+Remove all stopped containers, all dangling images, and all unused networks
+
+    docker system prune
