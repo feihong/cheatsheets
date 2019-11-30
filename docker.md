@@ -19,3 +19,7 @@ List all containers, including paused ones
 Remove all stopped containers, all dangling images, and all unused networks
 
     docker system prune
+
+Build image with name 'ihaskell' and tag 'latest' using Dockerfile in current directory
+
+    docker build -t ihaskell:latest .
