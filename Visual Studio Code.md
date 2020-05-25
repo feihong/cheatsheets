@@ -40,8 +40,12 @@
 }
 ```
 
+## Commands
+
+Install extension from vsix file
+
+    code path/to/my-extension.vsix
+
 ## Extensions to install
 
 - reason-vscode (config prefix: reason)
-- ~reasonml~
-
