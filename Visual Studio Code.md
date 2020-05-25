@@ -44,7 +44,7 @@
 
 Install extension from vsix file
 
-    code path/to/my-extension.vsix
+    code --install-extension path/to/my-extension.vsix
 
 ## Extensions to install
 
