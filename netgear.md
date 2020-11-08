@@ -8,7 +8,7 @@ Go to Advanced > Advanced Setup > Wireless Settings > 2.4GHz b/g/n and click Ena
 
 Go to Advanced > Administration > NTP Settings. Choose your time zone and check "Automatically adjust for daylight savings time".
 
-# Block service for a specific device
+## Block service for a specific device
 
 1. Go to Advanced > Setup > LAN Setup > Address Reservation. Click Add, pick the MAC address for your device and enter a relevant name.
 1. Go to Advanced > Security > Block Services. Select "Per Schedule" and click Add.
