@@ -12,7 +12,9 @@ Go to Advanced > Administration > NTP Settings. Choose your time zone and check 
 
 1. Go to Advanced > Setup > LAN Setup > Address Reservation. Click Add, pick the MAC address for your device and enter a relevant name.
 1. Go to Advanced > Security > Block Services. Select "Per Schedule" and click Add.
-1. Enter 1 and 65535 for start and end ports. Select "Only this IP address". Click Add.
+1. For Protocol, select "TCP/UDP".
+1. For Starting Port and Ending Port, enter 1 and 65535.
+1. Under "Filter Services For:" select "Only this IP address".
 1. Go to Advanced > Security > Schedule. Uncheck "All day". Enter start and end blocking times.
 
 Source: https://community.netgear.com/t5/Nighthawk-WiFi-Routers/Blocking-device-based-on-time-schedule/td-p/1200925#
