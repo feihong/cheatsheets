@@ -1,5 +1,9 @@
 # TP-Link
 
+# View time according to router
+
+System Tools > Time Settings
+
 # Ban access for a single device
 
 1. Access Control > Host > Add New...
