@@ -11,3 +11,7 @@ Create tarball for directory `book`
 List all files in tarball
 
     tar -tvf book.tar.gz
+
+Create tarball but rename all paths that start with book to my-book
+
+    tar -czvf 'Cool Book.tar.gz' -s /^book/my-book/ book
