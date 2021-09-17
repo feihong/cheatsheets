@@ -8,6 +8,7 @@ On the server, make sure to do:
 chmod go-w /home/$USER
 chmod 700 /home/$USER/.ssh
 chmod 644 /home/$USER/.ssh/authorized_keys
+cat id_rsa.pub > authorized_keys
 ```
 
 Source:
