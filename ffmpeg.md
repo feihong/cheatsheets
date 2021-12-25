@@ -55,7 +55,7 @@ Note that there is no way to do this with ffmpeg.
 
 ## Extract metadata into json file
 
-`ffprobe track.m4a -print_format json -show_format > track.json`
+`ffprobe -v quiet -print_format json -show_format -show_streams track.m4a > track.json`
 
 
 ## Sources
