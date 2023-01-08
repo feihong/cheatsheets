@@ -24,6 +24,14 @@
 
 `convert prefix-1.png prefix-2.png prefix-3.png -append result.png`
 
+## Convert image to black and white
+
+    convert invoice-1.heic -monochrome invoice-1.jpg
+    
+More information-preserving
+
+    convert invoice-1.heic -remap pattern:gray50 invoice-1.jpg
+
 ## Sources
 
 - [Resizing or Scaling](http://www.imagemagick.org/Usage/resize/)
