@@ -26,11 +26,11 @@
 
 ## Convert image to black and white
 
-    convert invoice-1.heic -monochrome invoice-1.jpg
+    convert invoice-1.heic -monochrome invoice-1.heic
     
 More information-preserving
 
-    convert invoice-1.heic -remap pattern:gray50 invoice-1.jpg
+    convert invoice-1.heic -remap pattern:gray50 invoice-1.heic
 
 ## Sources
 
