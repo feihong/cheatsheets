@@ -76,3 +76,4 @@ git push origin gh-pages
 - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 - https://help.github.com/articles/creating-project-pages-manually/
 - http://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-ssh
+- [Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
