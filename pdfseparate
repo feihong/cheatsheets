@@ -1,0 +1,17 @@
+# pdfseparate
+
+## Installation
+
+Ubuntu
+
+    sudo apt install poppler-tools
+
+Mac
+
+    brew install poppler
+
+## Extract pages 43 and 44 from `input.pdf`
+
+    pdfseparate -f 43 -l 44 input.pdf output-%d.pdf
+
+You should get two PDF files, output-43.pdf and output-44.pdf
