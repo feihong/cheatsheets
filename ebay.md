@@ -9,3 +9,8 @@
 1. Click `Leave feedback` button.
 
 Note that feedback left in this manner takes a while to show up on the site.
+
+## Schedule time away
+
+1. Account settings > Time away
+2. Schedule start and end dates
